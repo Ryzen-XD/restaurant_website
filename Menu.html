@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html style="background-color: black;">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>restaurant management</title>
+	<style>
+		body{
+			margin: 0px;
+			padding: 0px;
+			text-decoration: none;
+		}
+	
+.menu-area{
+	height: 50px;
+	width: 100%;
+	background-color:black;
+	padding-top: 5px;
+}
+
+.menu-area .menu-mid{
+	height: 50px;
+	width: 100%;
+	background-color:;
+	float: left;
+}
+.menu-area .menu-mid ul{
+	text-align: center;
+}
+.menu-area .menu-mid ul li{
+	display: inline-block;
+}
+.menu-area .menu-mid ul li a{
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	margin-left: 40px;
+	line-height: 20px;
+}
+.menu-area .menu-mid ul li a:hover{
+	color: white;
+	background: orangered;
+	padding: 5px 10px;
+	border-radius: 5px;
+	box-shadow: 1px 3px;
+}
+#menu{
+	padding:  20px 0 20px 0;
+
+}
+#menu2{
+	padding:  1px 0 1px 0;
+
+}
+
+#section{
+	color: whitesmoke;
+	padding: 20px 0 20px 0;
+	text-align: center;
+	font-size: 3rem;
+	font-family: verdana;
+}
+#section2{
+	padding: 0px 0 0px 0;
+
+}
+
+#menu_row{
+	display: flex;
+	padding: 0 100px 0 100px;
+}
+#menu_row2{
+	display: flex;
+	padding: 0 100px 0 100px;
+}
+#menu_col{
+	box-shadow: 2px 2px 2px #bbb;
+	border: 1px solid #bbb;
+	background-color: #fff;
+	margin: 5px;
+	padding: 10px;
+	flex: 1;
+}
+#menu_col h2{
+	background-color: red;
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+	font-family: cursive;
+}
+#image{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	padding: 5px;
+	border: 2px solid orange;
+}
+#image img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 5px;
+}
+
+
+
+
+	</style>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+	
+	<div class="menu-area">
+		
+		<div class="menu-mid">
+			<ul>
+				<li><a href="rest.html">HOME</a></li>
+				<li><a href="Menu.html">MENU</a></li>
+				<li><a href="gallery.html">GALLERY</a></li>
+				<li><a href="chefs.html">CHEFS</a></li>
+				<li><a href="offers.html">OFFER'S</a></li>
+				<li><a href="about.html">ABOUT US</a></li>
+				<li><a href="location.html">LOCATION</a></li>
+			</ul>
+		</div>
+
+		<div id="menu">
+			<h1 id="section">MENU</h1>
+			<div id="menu_row">
+
+				<div id="menu_col">
+					<h2>Breakfast</h2>
+					<div class="box">
+						<div id="image">
+							<img src="IMG/bf1.jpg">
+						</div>
+						<div>
+							<h3>Masala Dosa</h3>
+							<h4>Rs.80</h4>
+						</div>
+					</div>
+
+					<div class="box">
+						<div id="image">
+							<img src="IMG/breakfast2.jpg">
+						</div>
+						<div>
+							<h3>Paneer Stuff Paratha</h3>
+							<h4>Rs.100</h4>
+						</div>
+					</div>
+
+					<div class="box">
+						<div id="image">
+							<img src="IMG/bf3.jpg">
+						</div>
+						<div>
+							<h3>Idli (Sambar-Chatni)</h3>
+							<h4>Rs.50</h4>
+						</div>
+					</div>
+				</div>
+
+				<div id="menu_col">
+					<h2>Lunch</h2>
+					<div class="box">
+						<div id="image">
+							<img src="IMG/lunch1.jpg">
+						</div>
+						<div>
+							<h3>Chicken Biryani</h3>
+							<h4>Rs.210</h4>
+						</div>
+					</div>
+
+					<div class="box">
+						<div id="image">
+							<img src="IMG/lunch2.jpg">
+						</div>
+						<div>
+							<h3>Fish Fry</h3>
+							<h4>Rs.110</h4>
+						</div>
+					</div>
+
+					<div class="box">
+						<div id="image">
+							<img src="IMG/lunch3.jpg">
+						</div>
+						<div>
+							<h3>Veg Thali</h3>
+							<h4>Rs.180</h4>
+						</div>
+					</div>
+				</div>
+
+				<div id="menu_col">
+					<h2>Dinner</h2>
+					<div class="box">
+						<div id="image">
+							<img src="IMG/dinner1.jpg">
+						</div>
+						<div>
+							<h3>Chicken Tandoori</h3>
+							<h4>Rs.250</h4>
+						</div>
+					</div>
+
+					<div class="box">
+						<div id="image">
+							<img src="IMG/dn2.jpg">
+						</div>
+						<div>
+							<h3>Chicken Fried Rice</h3>
+							<h4>Rs.200</h4>
+						</div>
+					</div>
+
+					<div class="box">
+						<div id="image">
+							<img src="IMG/dn3.jpg">
+						</div>
+						<div>
+							<h3>Paneer Butter Masala</h3>
+							<h4>Rs.190</h4>
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+
+				<div id="menu2">
+			<h1 id="section2"></h1>
+			<div id="menu_row2">
+
+				<div id="menu_col">
+					<h2>Mocktails</h2>
+					<div class="box">
+						<div id="image">
+							<img src="IMG/mo1.jpg">
+						</div>
+						<div>
+							<h3>Strawberry Mojito</h3>
+							<h4>Rs.155</h4>
+						</div>
+					</div>
+
+					<div class="box">
+						<div id="image">
+							<img src="IMG/mo2.jpg">
+						</div>
+						<div>
+							<h3>Blue Lagoon</h3>
+							<h4>Rs.165</h4>
+						</div>
+					</div>
+
+					<div class="box">
+						<div id="image">
+							<img src="IMG/mo3.jpg">
+						</div>
+						<div>
+							<h3>Mint Mojito</h3>
+							<h4>Rs.145</h4>
+						</div>
+					</div>
+				</div>
+
+				<div id="menu_col">
+					<h2>Kebab</h2>
+					<div class="box">
+						<div id="image">
+							<img src="IMG/kb1.jpg">
+						</div>
+						<div>
+							<h3>Chicken Malai Kebab</h3>
+							<h4>Rs.250</h4>
+						</div>
+					</div>
+
+					<div class="box">
+						<div id="image">
+							<img src="IMG/kb2.jpg">
+						</div>
+						<div>
+							<h3>Paneer tikka</h3>
+							<h4>Rs.200</h4>
+						</div>
+					</div>
+
+					<div class="box">
+						<div id="image">
+							<img src="IMG/kb3.jpg">
+						</div>
+						<div>
+							<h3>Chicken Seekh Kebab</h3>
+							<h4>Rs.230</h4>
+						</div>
+					</div>
+				</div>
+
+				<div id="menu_col">
+					<h2>Dessert</h2>
+					<div class="box">
+						<div id="image">
+							<img src="IMG/de1.jpg">
+						</div>
+						<div>
+							<h3>Gulab Jamun With Rabri</h3>
+							<h4>Rs.125</h4>
+						</div>
+					</div>
+
+					<div class="box">
+						<div id="image">
+							<img src="IMG/de2.jpg">
+						</div>
+						<div>
+							<h3>Hot Fudge Brownie Sundaes</h3>
+							<h4>Rs.140</h4>
+						</div>
+					</div>
+
+					<div class="box">
+						<div id="image">
+							<img src="IMG/de3.jpg">
+						</div>
+						<div>
+							<h3>Mango Cheese Cake</h3>
+							<h4>Rs.115</h4>
+						</div>
+					</div>
+				</div>
+
+				
+
+			</div>
+		</div>
+	
+
+</body>		

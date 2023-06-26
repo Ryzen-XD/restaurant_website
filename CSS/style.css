@@ -1,0 +1,152 @@
+/*#body{
+	margin: 0px;
+	padding: 0px;
+	text-decoration:none;
+	/*background: url(../img/rest-img1.jpg);*/
+	/*background-image: url(../img/rest-img1.jpg);*/
+	/*background-attachment: fixed;*/
+	/*background-position: center;*/
+	/*width: 100%;*/
+	/*height: 580px;*/
+	/*background-size: cover;*/
+
+
+.top-header{
+	height: 50px;
+	width: 100%;
+	background-color:black;
+}
+.top-header .top-left{
+	height: 50px;
+	width: 30%;
+	background-color:black ;
+	float: left;
+}
+.top-header .top-left a{
+	color:white ;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.top-header .top-midone{
+	height: 50px;
+	width: 25%;
+	background-color:black ;
+	float: left;
+}
+.top-header .top-midone a{
+	color: white;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.top-header .top-midtwo{
+	height: 50px;
+	width: 30%;
+	background-color: black;
+	float: left;
+}
+.top-header .top-midtwo a{
+	color: white;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.top-header .top-right{
+	height: 50px;
+	width: 13%;
+	background-color: black;
+	float: left;
+}
+.top-header .top-right ul{
+	text-align: center;
+}
+.top-header .top-right ul li{
+	display: inline-block;
+}
+.top-header .top-right ul li a{
+	color: white;
+	margin-left: 12px;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.fa-facebook{
+	background-color: #4267B2;
+	padding: 2px 4px;
+	border-radius: 3px;
+}
+.fa-instagram{
+	background: #f09433;
+	background: linear-gradient(45deg,#f09433 0%,#e6683c 25%, #dc2743 50%,#cc2366 75%,#bc1888 100%);
+	padding: 2px 4px;
+	border-radius: 3px;
+}
+.fa-whatsapp{
+	background-color: #25d366;
+	padding: 2px 4px;
+	border-radius: 3px;
+}
+.menu-area{
+	height: 50px;
+	width: 100%;
+}
+
+.menu-area .menu-mid{
+	height: 50px;
+	width: 100%;
+	float: left;
+	}
+.menu-area .menu-mid ul{
+	text-align: center;
+	background: rgba(0, 0, 0, 0.5); 
+	width: 100%;
+	height: 65%;
+	padding-top: 15px;
+
+}
+.menu-area .menu-mid ul li{
+	display: inline-block;
+}
+.menu-area .menu-mid ul li a{
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	margin-left: 40px;
+	line-height: 20px;
+}
+.menu-area .menu-mid ul li a:hover{
+	color: white;
+	background: orangered;
+	padding: 5px 10px;
+	border-radius: 5px;
+	box-shadow: 1px 3px;
+}
+.name{
+	height: 50px;
+	width: 100%;
+
+	margin: auto;
+	border-radius: 10px;
+}
+.name h1{
+	color: #00f2ff;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	font-size: 100px;
+	margin-top: 150px;
+}
+
+/*Menu Section*/
+
